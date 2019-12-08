@@ -18,6 +18,7 @@ const routes: Routes = [
   //   loadChildren: './authentication/authentication.module#AuthenticationModule',
   // },
   {path: 'home', loadChildren: './home/home.module#HomeModule'},
+  {path: 'profile', loadChildren: './profile/profile.module#ProfileModule'},
   {path: '**', redirectTo: 'home'}
 ];
 
