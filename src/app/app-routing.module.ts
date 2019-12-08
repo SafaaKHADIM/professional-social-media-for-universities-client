@@ -20,6 +20,7 @@ const routes: Routes = [
   {path: 'home', loadChildren: './home/home.module#HomeModule'},
   {path: 'profile', loadChildren: './profile/profile.module#ProfileModule'},
   {path: 'chat', loadChildren: './chat-home/chat-home.module#ChatHomeModule'},
+  {path: 'blog', loadChildren: './blog/blog.module#BlogModule'},
   {path: '**', redirectTo: 'home'}
 ];
 
