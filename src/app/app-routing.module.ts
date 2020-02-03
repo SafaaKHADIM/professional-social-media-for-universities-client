@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'profile', loadChildren: './profile/profile.module#ProfileModule'},
   {path: 'chat', loadChildren: './chat-home/chat-home.module#ChatHomeModule'},
   {path: 'blog', loadChildren: './blog/blog.module#BlogModule'},
+  {path: 'test', component: TestComponent},
   {path: '**', redirectTo: 'home'}
 ];
 
